@@ -10,6 +10,9 @@ const sections = [
   { id: "agent", label: "에이전트" },
   { id: "shrimp", label: "Task Manager" },
   { id: "supabase", label: "DB/협업" },
+  { id: "plan", label: "구현계획" },
+  { id: "tech", label: "사용기술" },
+  { id: "deploy", label: "배포" },
   { id: "concept", label: "개념 지도" },
 ];
 

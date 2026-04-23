@@ -6,7 +6,7 @@ const ParticleBackground = dynamic(() => import("@/components/ui/ParticleBackgro
   ssr: false,
 });
 
-const title = "클로드 교육 핵심 개념";
+const title = "클로드 교육 핵심 개념(이주형)";
 const tags = ["PRD", "MCP 서버", "MVP", "Sub-agent", "Task Manager", "Supabase", "Notion"];
 
 export default function HeroSection() {
@@ -35,7 +35,7 @@ export default function HeroSection() {
           className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-sm"
         >
           <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
-          Claude 교육 세션 정리본
+          이주형 Claude 교육 세션 정리본
         </motion.div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white tracking-tight">
