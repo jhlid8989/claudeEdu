@@ -6,7 +6,7 @@ const ParticleBackground = dynamic(() => import("@/components/ui/ParticleBackgro
   ssr: false,
 });
 
-const title = "클로드 교육 핵심 개념(이주형)";
+const title = "반쪽짜리 클로드 교육 핵심 개념";
 const tags = ["PRD", "MCP 서버", "MVP", "Sub-agent", "Task Manager", "Supabase", "Notion"];
 
 export default function HeroSection() {
