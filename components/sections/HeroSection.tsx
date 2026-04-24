@@ -38,14 +38,14 @@ export default function HeroSection() {
           이주형 Claude 교육 세션 정리본
         </motion.div>
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-white tracking-tight">
           {title.split("").map((char, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 + i * 0.04 }}
-              className={char === " " ? "inline-block w-3 md:w-5" : "inline-block"}
+              className={char === " " ? "inline-block w-2 sm:w-3 md:w-4" : "inline-block"}
             >
               {char}
             </motion.span>
